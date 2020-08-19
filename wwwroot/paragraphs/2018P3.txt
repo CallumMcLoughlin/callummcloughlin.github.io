@@ -1,0 +1,4 @@
+﻿This simulation was written in C# using the Monogame framework
+which is a continuation of Microsoft's XNA framework. This was 
+to teach myself the framework and have a little fun simulating
+things.

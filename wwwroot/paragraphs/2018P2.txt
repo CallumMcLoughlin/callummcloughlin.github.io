@@ -1,0 +1,2 @@
+﻿This was a simple app written to learn the basics behind
+parallax effects in games.

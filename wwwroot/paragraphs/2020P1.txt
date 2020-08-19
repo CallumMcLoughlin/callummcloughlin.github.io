@@ -1,7 +1,3 @@
 ﻿Written in Unity, this was a mobile app I made within two days. 
 This project was a way that I could learn and develop good practices of 
-Game Design, by using object pools rather than instantiation on the fly.
-
-This project originally was meant to help me learn and develop shaders 
-but due to the constraint of mobile had to be deferred for a project
-at a later date that was not on the mobile platform.
+game design.
