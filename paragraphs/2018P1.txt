@@ -1,0 +1,3 @@
+﻿This was created to teach myself the basics of using Perlin Noise 
+to generate smooth terrain alongside using chunk based loading and 
+on the fly generated meshes and colliders.

@@ -1,0 +1,3 @@
+﻿Written in Unity, this was a mobile app I made within two days. 
+This project was a way that I could learn and develop good practices of 
+game design.
