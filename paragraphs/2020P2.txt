@@ -1,5 +1,5 @@
 ﻿This was a project intended for me to learn the fundamentals of the MVC design pattern alongside
 Java with JavaFX/BootstrapFX, the Maven build process and JUnit automated testing.
 
-This project incorporates the fundamentals of MVC databinding to create a way to visualize different
+This project incorporates the fundamentals of MVC data binding to create a way to visualize different
 searching algorithms for different user drawn mazes.
