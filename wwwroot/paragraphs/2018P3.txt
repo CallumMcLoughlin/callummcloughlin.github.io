@@ -2,3 +2,6 @@
 which is a continuation of Microsoft's XNA framework. This was 
 to teach myself the framework and have a little fun simulating
 things.
+
+The Monogame framework itself is not an engine, but purely a library to show
+graphics, which required me to build an engine on top.

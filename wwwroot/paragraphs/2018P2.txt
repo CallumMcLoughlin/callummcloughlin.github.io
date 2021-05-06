@@ -1,2 +1,2 @@
-﻿This was a simple app written to learn the basics behind
+﻿Using Unity and written in C#, this was a simple app written to learn the basics behind
 parallax effects in games.

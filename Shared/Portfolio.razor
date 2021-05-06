@@ -1,4 +1,4 @@
-﻿<div class="container">
+﻿<div class="container" id="portfolio">
     <section class="bg-white border-bottom box-shadow mb-3">
         <h1>Portfolio</h1>
     </section>
@@ -8,66 +8,99 @@
         <img src="@imageSource" class="modal-content" id="modalImage" />
         <div id="hiddenCaption">@modalContent</div>
     </div>
-
+    
     <div class="container">
         <div>
             <table class="table" cellspacing="100">
                 <thead class="table-dark">
-                    <tr>
-                        <th colspan="2" class="h2">Github Projects</th>
-                    </tr>
+                <tr>
+                    <th colspan="2" class="h2">Github Projects</th>
+                </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <a href="https://github.com/CallumMcLoughlin/callummcLoughlin.github.io" target="_blank">ASP.NET/Blazor Website</a>
-                        </td>
-                        <td>
-                            <p>
-                                This website was built specifically to showcase my skills and knowledge across a broad range of frameworks and languages.
-                                Written in C# with ASP.NET, more specifically Blazor.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="https://github.com/CallumMcLoughlin/MazeSearcher" target="_blank">MazeSearcher</a>
-                        </td>
-                        <td>
-                            <p>
-                                A program written in Java, using JavaFX with BootstrapFX. This program is intended to be used to visualize how different
-                                searching algorithms search different user drawn mazes from a start node to a goal node.
-                                This program was written with MVC design principals and uses Maven for the build process
-                                alongside JUnit for automated unit testing.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="https://github.com/CallumMcLoughlin/ProcessReader" target="_blank">ProcessReader</a>
-                        </td>
-                        <td>
-                            <p>
-                                A simple C# Program to read another processes' memory, uses platform invocation to call native C functions
-                                from C# in order to accomplish this.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="https://github.com/CallumMcLoughlin/KingdomsSim" target="_blank">KingdomsSim</a>
-                        </td>
-                        <td>
-                            <p>
-                                This project was written in C# using the Monogame framework which is continuation of the XNA framework. The main goal was to
-                                simulate 'kingdoms' where each pixel is a unit, and each colour is a kingdom, which can attack any colour that is not it's own.
-                            </p>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <a href="https://github.com/CallumMcLoughlin/callummcLoughlin.github.io" target="_blank">ASP.NET/Blazor Website</a>
+                    </td>
+                    <td>
+                        <p>
+                            This website was built specifically to showcase my skills and knowledge across a broad range of frameworks and languages.
+                            Written in C# with ASP.NET, more specifically Blazor.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://github.com/CallumMcLoughlin/MazeSearcher" target="_blank">MazeSearcher</a>
+                    </td>
+                    <td>
+                        <p>
+                            A program written in Java, using JavaFX with BootstrapFX. This program is intended to be used to visualize how different
+                            searching algorithms search different user drawn mazes from a start node to a goal node.
+                            This program was written with MVC design principals and uses Maven for the build process
+                            alongside JUnit for automated unit testing.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://github.com/CallumMcLoughlin/ProcessReader" target="_blank">ProcessReader</a>
+                    </td>
+                    <td>
+                        <p>
+                            A simple C# Program to read another processes' memory, uses platform invocation to call native C functions
+                            from C# in order to accomplish this.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://github.com/CallumMcLoughlin/KingdomsSim" target="_blank">KingdomsSim</a>
+                    </td>
+                    <td>
+                        <p>
+                            This project was written in C# using the Monogame framework which is continuation of the XNA framework. The main goal was to
+                            simulate 'kingdoms' where each pixel is a unit, and each colour is a kingdom, which can attack any colour that is not it's own.
+                        </p>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </div>
     </div>
+    
+    <div class="container">
+        <div>
+            <table class="table" cellspacing="100">
+                <thead class="table-dark">
+                <tr>
+                    <th colspan="2" class="h2">Opensource Contributions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <a href="https://github.com/OpenSC/libp11" target="_blank">libp11</a>
+                    </td>
+                    <td>
+                        <p>
+                            Written in C, libp11 is made up of two libraries, a higher level interface to communicate 
+                            and interact with PKCS11 objects, and a PKCS11 engine plugin for OpenSSL which allows accessing 
+                            PKCS#11 modules in a semi-transparent way.
+                        </p>
+                        <p>
+                            My contributions involved identifying and fixing an issue with using the libraries on different endian platforms.
+                            My patch fixed an issue where adding a boolean attribute truncates the value and depending on the endianness of the system 
+                            can result in the wrong value being added.
+                        </p>
+                        <a href="https://github.com/OpenSC/libp11/pull/386">Merged Pull Request</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
     <div class="container">
         <table class="table" cellspacing="100">
             <thead class="table-dark">
