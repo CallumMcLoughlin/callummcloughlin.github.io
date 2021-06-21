@@ -1,0 +1,27 @@
+﻿@foreach (string obj in SplitBadges())
+{
+    <span class="badge" style="background-color: @getColor(obj)">@obj</span>
+}
+
+@code {
+    [Parameter]
+    public string badges { get; set; }
+
+    private string[] SplitBadges()
+    {
+        if (badges != null)
+        {
+            return badges.Split(",");
+        }
+        return null;
+    }
+
+    private string getColor(string badgeString)
+    {
+        if (BadgeLookup.badgeColors.ContainsKey(badgeString))
+        {
+            return BadgeLookup.badgeColors[badgeString];
+        }
+        return "#28a9fa";
+    }
+}
