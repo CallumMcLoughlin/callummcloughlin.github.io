@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Showcase.Shared
+namespace Showcase.Source
 {
     public class BadgeLookup
     {
