@@ -18,6 +18,7 @@ namespace Showcase.Source
             { "Python", "#ba8b00" },
             { "Docker", "#4b613d" },
             { "Shell", "#85ff38" },
+            { "C++", "#d41999"}
         };
     }
 }
