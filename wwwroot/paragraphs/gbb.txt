@@ -1,0 +1,3 @@
+﻿Created with two other software engineering students during my final year at university, we implemented a way to place 
+and navigate to waypoints through their latitude and longitude. Additionally, importing and exporting of placed pins to share 
+with others. Created using Kotlin.
